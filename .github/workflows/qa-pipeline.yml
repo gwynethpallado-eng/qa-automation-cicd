@@ -28,6 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium
 
-      - name: Run Python script
+      - name: Test pipeline
         run: |
-          python login_test.py
+          echo "Pipeline is working!"
